@@ -1,0 +1,77 @@
+body {background-color: black;}
+
+h1, h2{
+    color:white;
+    font-family:"Lora","Courier New","Lucida Sans Typewriter",monospace,serif; /*fallback fonts in order if Lora doesn't work*/
+    text-align: center;
+}
+
+p, a, label.form-check-label {
+  color:white;
+  font-family:"Courier New","Lucida Sans Typewriter",monospace,serif;
+}
+
+#genBtn {
+  font-family:"Courier New","Lucida Sans Typewriter",monospace,serif;
+}
+
+/*button {*/
+/*    position: fixed;*/
+/*    top: 75%;*/
+/*    left: 50%;*/
+    /* bring your own prefixes */
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+
+#vertFlex {
+  /*height: 100vh;*/
+  min-height: 100vh;
+}
+
+#formWrapper {
+  display: inline-block;
+  padding-bottom: 160px;
+}
+
+.mobileShow {
+  display: none;
+}
+
+.btnWrapper{
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.checkWrapper{
+  margin: auto;
+  width:90px;
+  padding-top: 5px;
+}
+
+.nameWrapper{
+  /*margin: auto;*/
+  /*display: block;*/
+  /*position: absolute;*/
+  /*top: 10%;*/
+  /*left: 50%;*/
+  /*transform: translate(-50%);*/
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.form-check-label{
+  color:white;
+  font-family:"Lora","Courier New",monospace,serif;
+}
+
+/* Smartphone Portrait and Landscape */
+@media 
+only screen and (max-width: 768px) {
+}
+
+.footer{
+  padding-left:10px;
+}
